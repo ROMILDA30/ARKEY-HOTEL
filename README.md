@@ -22,7 +22,7 @@ Anno Accademico 2023/2024
 
 
 
-# Arkey
+# Arkey Hotel
 Benvenuti in Arkey
 
 # Descrizione
