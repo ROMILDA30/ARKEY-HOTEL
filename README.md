@@ -29,7 +29,7 @@ Benvenuti in Arkey
 Arkey è un albergo vicino al mare tra gli alberi in un angolo privato del'isola, posto super silenzioso e suggestivo dove prevalgono pace e tranquillità.
 
 # Accesso al Sito
-https://silver-queijadas-a76cbe.netlify.app
+https://arkeyhotel9.netlify.app/
 
 # Contacts
 Per qualsiasi informazione,domanda,consiglio mettersi in contatto con i seguenti recapiti.
