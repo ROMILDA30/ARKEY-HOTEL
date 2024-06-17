@@ -1,12 +1,26 @@
 Romilda Muca
+
+
+
 Corso Fashion Design 3
+
+
+
 Accademia di belle arte di Novara
 
 
 Matricola 955 
+
+
 Corso di Web Design 
+
+
 Prof.Baccan Matteo 
+
+
 Anno Accademico 2023/2024
+
+
 
 # Arkey
 Benvenuti in Arkey
@@ -17,5 +31,12 @@ Arkey è un albergo vicino al mare tra gli alberi in un angolo privato del'isola
 # Accesso al Sito
 https://silver-queijadas-a76cbe.netlify.app
 
+# Contacts
+Per qualsiasi informazione,domanda,consiglio mettersi in contatto con i seguenti recapiti.
 
+ Email: reservations@ourhotel.com
+
+Phone: (123) 456-7890
+
+Address: 123 Luxury Lane, Dream City
  
