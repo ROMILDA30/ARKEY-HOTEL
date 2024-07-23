@@ -36,7 +36,7 @@ Per qualsiasi informazione,domanda,consiglio mettersi in contatto con i seguenti
 
  Email: reservations@ourhotel.com
 
-Phone: (123) 456-7890
+Phone: (39) 456-7890
 
-Address: 123 Luxury Lane, Dream City
+Address: Via Napoleone Mi, Milano 7
  
