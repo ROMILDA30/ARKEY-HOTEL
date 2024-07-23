@@ -38,5 +38,5 @@ Per qualsiasi informazione,domanda,consiglio mettersi in contatto con i seguenti
 
 Phone: (39) 456-7890
 
-Address: Via Monte Napoleone, 7  Mi, Milano 
+Address: Via Giovanni Belleza, 123  Mi, Milano 
  
