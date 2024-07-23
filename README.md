@@ -71,4 +71,10 @@ Per qualsiasi informazione,domanda,consiglio mettersi in contatto con i seguenti
 Phone: (39) 456-7890
 
 Address: Via Giovanni Belleza, 123  Mi, Milano 
+
+
+# License
  
+Il contenuto di questo portfolio è soggetto alla Arkey Hotel License. Consulta il file LICENSE per ulteriori dettagli.
+
+Grazie per esserti interessato ad Arkey Hotel!
