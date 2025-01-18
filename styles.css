@@ -198,11 +198,25 @@ a {
     box-shadow: -6px -4px 10px gray;
 }
 
+.hidden-div-bot {
+    position: absolute;
+    visibility: hidden;
+    top: 540px;
+    width: 50%;
+    left: 0;
+    background-color: white;
+    box-shadow: -6px -4px 10px gray;
+}
+
 .card:hover + .hidden-div {
     visibility: visible;
 }
 
 .card:hover + .hidden-div-left {
+    visibility: visible;
+}
+
+.card:hover + .hidden-div-bot {
     visibility: visible;
 }
 
