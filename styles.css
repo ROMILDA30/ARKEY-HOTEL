@@ -268,4 +268,9 @@ a {
         box-shadow: -6px -4px 10px gray;
     }
 
+    iframe {
+        width: 80%;
+        height: 80%;
+    }
+
 }
