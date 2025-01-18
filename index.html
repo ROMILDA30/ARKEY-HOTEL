@@ -3,25 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotel Single Page Website</title>
+    <title>ARKEY HOTEL</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#menu">MENU</a></li>
-                <li><a href="#galleria">GALLERIA</a></li>
-                <li><a href="#servizio">COSA OFFRIAMO NOI</a></li>
-                <li><a href="#contatto">CONTATTO</a></li>
-            </ul>
-        </nav>
-    </header>
+    <header class="header">
+        <div class="menu-div">
+            <img src="./assets/menu.png" alt="">
+            <p class="menu-text">MENU</p>
+        </div>
 
+        <div class="wrapper">
+            <ul class="menu-list">
+                <li class="menu-item"><a href="#galleria">GALLERIA</a></li>
+                <li class="menu-item"><a href="#servizio">COSA OFFRIAMO NOI</a></li>
+                <li class="menu-item"><a href="#contatto">CONTATTO</a></li>
+            </ul>
+        </div>
+    </header>
     <section id="home">
-        <h1>Benvenuti nel nostro Hotel</h1>
-        <h2>Sperimentare il lusso e il comfort</h2>
-        <p>Il vostro posto rilassante vi asspetta qui.</p>
+        <h1 class="main-text">Benvenuti nel nostro Hotel</h1>
+        <h2 class="main-text">Sperimentare il lusso e il comfort</h2>
+        <p class="paragraph">Il vostro posto rilassante vi asspetta qui.</p>
     </section>
 
     <section id="GALLERIA">
@@ -30,32 +33,64 @@
             <img src="/assets/room-view-1.jpg" alt="Photo 1">
             <img src="/assets/front-view.jpg" alt="Photo 3">
             <img src="assets/inside-hotel.jpg" alt="Photo 2">
-
         </div>
-        
     </section>
 
     <section id="servizi">
         <h2>Cosa offriamo noi</h2>
         <div class="card">
-            <img src="assets/room-view-12jpg.jpg" alt="Luxurious Rooms">
+            <img src="./assets/room-view-12jpg.jpg" alt="Luxurious Rooms">
             <h3>Camere lussoze</h3>
-            <p >Le nostre camere comode e lussuose.</p>
+            <p>Le nostre camere comode e lussuose.</p>
         </div>
+        <div class="hidden-div">
+            <div class="side-frame">
+                <img src="assets/arte-boutique-hotel.jpg" alt="">
+            </div>
+            <div class="side-frame">
+                <img src="assets/arte-boutique-hotel.jpg" alt="">
+            </div>
+            <div class="side-frame">
+                <img src="assets/arte-boutique-hotel.jpg" alt="">
+            </div>
+        </div>
+
         <div class="card">
             <img src="assets/food-image-2.jpg" alt="Camere lussuose">
             <h3>Cena Gourmet</h3>
             <p>Gustare piatti squisiti preparati dai migliori chef.</p>
         </div>
-            <div>
+        <div class="hidden-div-left">
+            <div class="side-frame">
+                <img src="assets/arte-boutique-hotel-waiting-room.jpg" alt="">
+            </div>
+            <div class="side-frame">
+                <img src="assets/arte-boutique-hotel-waiting-room.jpg" alt="">
+            </div>
+            <div class="side-frame">
+                <img src="assets/arte-boutique-hotel-waiting-room.jpg" alt="">
+            </div>
+        </div>
 
         <div class="card">
             <img src="assets/drings-image-1.jpg" alt="Spa e centro benessere">
             <h3>Lounge </h3>
             <p>Rilassatevi e godetevi i nostroo cocktail </p>
         </div>
-       
-    <<section id="sede" class="sede-section">
+        <div class="hidden-div">
+            <div class="side-frame">
+                <img src="assets/arte-boutique-hotel-rooms.jpg" alt="">
+            </div>
+            <div class="side-frame">
+                <img src="assets/arte-boutique-hotel-rooms.jpg" alt="">
+            </div>
+            <div class="side-frame">
+                <img src="assets/arte-boutique-hotel-rooms.jpg" alt="">
+            </div>
+        </div>
+    </section> 
+
+    <section id="sede" class="sede-section">
     <h2 class="section-title">La nostra sede</h2>
     <div class="map-container">
         <iframe
@@ -64,8 +99,9 @@
             title="Siamo qui">
         </iframe>
     </div>
+    </section>
 
-    <section id="Contatti">
+    <!-- <section id="Contatti">
         <h2>Contact Us</h2>
         <p>Email: reservations@ourhotel.com</p>
         <p>Phone: (39) 456-7890</p>
@@ -76,8 +112,18 @@
                 <p><a href="#">Twitter</a></p>
                 <p><a href="#">Instagram</a></p>
             </div>
-    </section>
-    <section class="newsletter">
+    </section> -->
+    <footer class="newsletter">
+        <h2>Contact Us</h2>
+        <p>Email: reservations@ourhotel.com</p>
+        <p>Phone: (39) 456-7890</p>
+        <p>Address: Via Giovanni Belleza, 123</p>
+          <div class="footer-column">
+                <h3>Seguici su</h3>
+                <p><a class="footer-a" href="#">Facebook</a></p>
+                <p><a class="footer-a" href="#">Twitter</a></p>
+                <p><a class="footer-a" href="#">Instagram</a></p>
+            </div>
         <h2>Iscriviti alla nostra newsletter</h2>
         <p>Iscriviti alla nostra newsletter e ottieni il 10% di sconto sul tuo primo prenotazione!</p>
         <form action="#" method="post">
@@ -86,10 +132,10 @@
         </div>
         <p>&copy; 2024 Arkey9. Tutti i diritti riservati.</p>
               <ul class="social-media">
-        <li><a href="#facebook"><i class="fab fa-facebook-f"></i></a></li>
-        <li><a href="#twitter"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="#instagram"><i class="fab fa-instagram"></i></a></li>
-        <li><a href="#linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a class="footer-a" href="#facebook"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a class="footer-a" href="#twitter"><i class="fab fa-twitter"></i></a></li>
+        <li><a class="footer-a" href="#instagram"><i class="fab fa-instagram"></i></a></li>
+        <li><a class="footer-a" href="#linkedin"><i class="fab fa-linkedin-in"></i></a></li>
       </ul>
     </div>
   </footer>   
