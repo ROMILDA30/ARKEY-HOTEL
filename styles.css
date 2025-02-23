@@ -11,7 +11,7 @@ body {
 
 header {
     color: #fff;
-    background-color: darkgoldenrod;
+    background-color: #80855f;
     padding: 1rem 0;
     text-align: center;
 }
@@ -57,7 +57,7 @@ section#home img {
 }
 
 section#gallery {
-    color: darkgoldenrod;
+    color: #80855f;
     background: #fff;
     border-top: 1px solid #ddd;
     padding: 4rem 2rem;
@@ -78,7 +78,7 @@ section#gallery {
 
 
 section#offer {
-    color: darkgoldenrod;
+    color: #80855f;
     background: #f4f4f4;
     border-top: 1px solid #ddd;
     padding: 4rem 2rem;
@@ -160,7 +160,7 @@ section#contact {
 }
 
 .menu-list {  
-    background-color: #b8860b;
+    background-color: #80855f;
     width: 25%;
     padding: 20px;
 }
@@ -234,7 +234,7 @@ a {
 }
 
 .newsletter {
-    background-color: #b8860b;
+    background-color: #80855f;
     display: flex;
     flex-direction: column;
     text-align: center;
